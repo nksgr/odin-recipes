@@ -16,7 +16,7 @@ h1{
 h2{
     font-family:  'Times New Roman', Times, serif;
     font-size: 26px;
-    color: rgba(37, 3, 3, 0.863);
+    color: rgba(2, 1, 19, 0.863);
 }
 
 
@@ -27,7 +27,7 @@ body{
     align-items: center;
     justify-content: center;
     margin-top: 25px;
-    background-color: rgb(53, 3, 3);
+    background-color: rgba(2, 17, 1, 0.966);
 }
 
 .recipes-container{
@@ -35,31 +35,46 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border: 2px solid rgba(255, 64, 0, 0.507);
+    border: 22px solid rgba(97, 26, 3, 0.904);
     border-radius: 5px;
-    background-color: rgba(255, 94, 0, 0.836);    
+    background-color: rgba(211, 82, 8, 0.952);    
     height: auto;
-    width: 85%;
-    padding: 25px;
+    width: 90%;
+    padding: 40px;
+    padding-top: 60px;
     box-shadow: rgba(122, 2, 2, 0.15) 0px 3px 3px 0px;
 }
 
 .recipe{
     display: flex;
+    position: relative;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: auto;
     width: 300px;
-    border-radius: 15px;
-    padding: 65px 15px 15px;
+
+    padding: 50px 15px 15px;
     margin: 15px 30px;
-    background-color: rgba(255, 255, 255, 0.918);
+    background-color: rgba(255, 255, 255, 0.911);
     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    border-bottom: black 2px solid;
+    border-top: rgb(129, 3, 3) 80px solid;
+    border-radius: 15px;
 
+
+
+} 
+
+
+.recipe i {
+    position: absolute;
+    font-size: 65px;
+    color: rgb(237, 241, 11);
+    top: -17%;
+   
 }
-
 .recipe img{
     width: 100%;
     height: auto;
