@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Open+Sans:wght@400&family=Raleway&display=swap');
+
+
+h1, h2, h3 , h4{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.recipes-container{
+    display: flex;
+    justify-content: space-around;
+    width: 93vw;
+    min-height: 100vh;
+    padding: 20px ;
+}
+
+.heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(34, 1, 1);
+}
+
+.content-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    
+}
+
+.column-1{
+    width:60%;
+
+}
+
+.desciption-box, .procedure, .ingredients-box, .img-box, .credits{
+
+    background-color: rgb(236, 223, 206);
+    padding: 20px;
+    border-radius: 10px;
+    border: rgba(1, 1, 34, 0.555) 0.5px solid;
+    border-top:rgb(34, 1, 1) 50px solid;
+
+    font-family: 'Open Sans', sans-serif;;
+
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+
+.column-2{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+    width: 40%;
+}
+
+.img-box, .ingredients-box {
+    padding: 10px;
+    margin: 15px;
+    
+    
+}
+.img-box {
+    background-color: rgb(233, 233, 233);
+    border-top:0px;
+    padding: 25px 25px 0;
+    border: 0;
+    border-radius: 0;
+}
+.img-box img{
+
+    border: rgba(34, 1, 1, 0.185) 2px solid;
+    width: 100%;
+    height: auto;
+}
+
+.img-box h3{
+    font-family: 'Corinthia', cursive;
+    font-size: 45px;
+}
+
+
+
+
+.ingredients-box{
+    width: 80%;
+}
+
+.ingredients-box ul {
+    align-self: flex-start;
+
+}
+
+.credits {
+    border-top: 0px;
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid black;
+    width: 50%;
+}
+
+.credits p{
+    font-size: 18px;
+}
+.credits a {
+    text-decoration: none;
+    color:rgb(34, 1, 1);
+    font-style: bold;
+
+
+}
+
+
+
