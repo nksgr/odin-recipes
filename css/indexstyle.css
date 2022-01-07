@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Open+Sans:wght@400&family=Raleway&display=swap');
+
+
 *{
     
   
@@ -13,9 +16,9 @@ h1{
     color: rgb(219, 200, 112) ;
 }
 
-h2{
-    font-family:  'Times New Roman', Times, serif;
-    font-size: 26px;
+h2{ 
+    font-family: 'Corinthia', cursive;
+    font-size: 40px;
     color: rgba(2, 1, 19, 0.863);
 }
 
@@ -55,30 +58,32 @@ body{
     height: auto;
     width: 300px;
 
-    padding: 50px 15px 15px;
-    margin: 15px 30px;
-    background-color: rgba(255, 255, 255, 0.911);
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-    border-bottom: black 2px solid;
-    border-top: rgb(129, 3, 3) 80px solid;
-    border-radius: 15px;
+    margin: 15px 20px;
+
+    background-color: rgb(233, 233, 233);
+    border-top:0px;
+    padding: 50px 25px 0;
+    border: 0;
+    border-radius: 0;
+
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 
 
 
 } 
-
+a {
+    text-decoration: none;
+}
 
 .recipe i {
-    position: absolute;
-    font-size: 65px;
-    color: rgb(237, 241, 11);
-    top: -17%;
-   
+
+    display: none;
+
 }
 .recipe img{
     width: 100%;
     height: auto;
-    border-radius: 5px;
+    border: rgba(34, 1, 1, 0.185) 2px solid;
    
 }
 

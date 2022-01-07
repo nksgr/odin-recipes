@@ -7,9 +7,8 @@ In this project, I am applying the basics of HTML to create a recipe project whi
 
 1) Butter Chicken: Simply Kitchen
 2) Veg Momos: India TV
-3) Paneer Tikka: Ministry of Curry
-4) Chicken Tikka Roll: Kitchen Sanctuary
-5) Pav Bhaji: Cubes N Juliennes
+3) Paneer Tikka: Ministry of Curry && Pudina Chutney by Dassana's Veg recipes
+
 
 **Disclaimer: **
 

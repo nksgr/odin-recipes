@@ -1,15 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Open+Sans:wght@400&family=Raleway&display=swap');
 
-
+*{
+    
+    box-sizing: border-box;
+    
+}
 h1, h2, h3 , h4{
     font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
 }
 
+h4 {
+    font-size: 18px;
+}
 
 .recipes-container{
     display: flex;
     justify-content: space-around;
-    width: 93vw;
+    width: 90vw;
     min-height: 100vh;
     padding: 20px ;
 }
@@ -29,10 +37,14 @@ h1, h2, h3 , h4{
 
 .column-1{
     width:60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 
 }
 
-.desciption-box, .procedure, .ingredients-box, .img-box, .credits{
+.procedure, .ingredients-box, .img-box, .credits{
 
     background-color: rgb(236, 223, 206);
     padding: 20px;
@@ -47,6 +59,8 @@ h1, h2, h3 , h4{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
 }
 
@@ -91,7 +105,8 @@ h1, h2, h3 , h4{
 
 
 .ingredients-box{
-    width: 80%;
+    width: 90%;
+    align-self: center;
 }
 
 .ingredients-box ul {
@@ -103,18 +118,30 @@ h1, h2, h3 , h4{
     border-top: 0px;
     font-family: 'Raleway', sans-serif;
     border: 1px solid black;
-    width: 50%;
+    
+
 }
 
 .credits p{
     font-size: 18px;
+    text-align: center;
 }
 .credits a {
-    text-decoration: none;
+    
     color:rgb(34, 1, 1);
     font-style: bold;
+    font-size: 18px;
 
 
+}
+
+.credits .disclaimer {
+    font-size: 15px;
+    align-self: flex-start;
+    
+}
+a {
+    text-decoration: none;
 }
 
 
