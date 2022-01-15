@@ -12,7 +12,7 @@ In this project, I am applying the basics of HTML to create a recipe project whi
 
 **Disclaimer: **
 
-The content and images belong to the respective owners. The content used from their sites in my project are solely used for learning purpose, as a part of completing my assignment in "The Odin Project". The links to these sources are in the pages teir content is used in my project. 
+The content and images belong to the respective owners. The content used from their sites in my project are solely used for learning purpose, as a part of completing my assignment in "The Odin Project". The links to these sources are in the pages their content is used in my project. 
 
 
 I thank these great food blogs for incredible recipes and Odin Project for this fun project! 
